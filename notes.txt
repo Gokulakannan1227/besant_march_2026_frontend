@@ -122,6 +122,34 @@ inline-level - do not start from new line, width is limited to what is needed
 (span, a, img, etc)
 
 
+height and width 
+
+Positions  
+
+    relative - positoned reletive to where it normally is 
+    fixed - positioned relative to viewport
+    absolute - postioned relateive to nearest ancestor
+    sticky - postion based on the scrool position 
+    static - default postion for an element 
+
+
+Combinators = explans the relationship betwwen listed selectors
+
+
+  space = decesdent 
+  > = child 
+  ~ = general sibling
+  + = adjacent sibling 
+
+
+
+
+
+
+
+
+
+
 
 
 
