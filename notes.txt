@@ -135,12 +135,17 @@ Positions
 
 Combinators = explans the relationship betwwen listed selectors
 
-
   space = decesdent 
   > = child 
   ~ = general sibling
   + = adjacent sibling 
 
+
+Pseudo-classes 
+
+Pseudo-elements - keyword added after a slector that used to style specific part of an element
+
+pagenation 
 
 
 

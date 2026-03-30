@@ -200,7 +200,7 @@ body {
     top: 25px;
     left: 25px;
 
-}  */
+}  
 
 #container {
     border: 2px solid;
@@ -220,4 +220,125 @@ body {
 
 #container + p {
      background: lightgreen;
+}  
+
+
+#atag:hover {
+    color: red;
+    font-size: 1.1em;
+} 
+
+#atag:active {
+   color: red;
+   font-size: 1.1em;
+}  
+#atag:visited {
+   color: blue;
+   font-size: 1.1em;
+}  
+
+li:hover {
+    background-color: lightblue;
 }
+
+li:not(:hover) {
+    background-color: lightgreen;
+} 
+
+
+li:nth-child(4n + 1) {
+    background-color: lightgreen;
+} 
+
+
+#hello p {
+    background-color: lightsalmon;
+    padding: 10px;
+    display: none;
+}
+ 
+
+#hello:hover p {
+    display: block;
+}
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: lightgreen;
+
+}
+
+p::selection {
+    color: white;
+    background-color: red;
+
+}
+
+#fruit li::before{
+    
+}
+
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#apple::after{
+    content: "🍎";
+}
+#apple::after{
+    content: "🍎";
+}
+
+#fruit li::marker {
+    content: "✔️";
+    
+}  */
+
+
+.pagination {
+    text-align: center;
+
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+
+.pagination a.active {
+    background-color: lightgreen;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: gray;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
